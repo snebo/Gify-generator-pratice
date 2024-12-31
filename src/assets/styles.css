@@ -8,11 +8,14 @@ form {
 }
 .image-container {
   width: 400px;
-  aspect-ratio: 1/1;
   border: 2px solid black;
   margin: 20px 10px;
   position: relative;
   overflow: hidden;
+}
+.giphy-image {
+  width: 100%;
+  object-fit: contain;
 }
 .attribution-indicator {
   position: absolute;
